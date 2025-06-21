@@ -1,0 +1,60 @@
+const reviews = [
+  {
+    title: "Absolute hidden gem!",
+    desc: "A fantastic stay that not many people know off, judging by the price! The villa was great! Comfy bed, spacious, nice bathroom with food amenities. The pool was awesome overlooking the jungly together with the small hut to relax. An absolute value for money",
+    author: "Christoforos",
+    nation: "Greek",
+    date: "28 December 2024",
+    className: "absolute left-[20%] rotate-[-5deg]",
+  },
+  {
+    title: "Beautiful!",
+    desc: "It was amazing for the price the owner is a great helpful man too.",
+    author: "Allun",
+    nation: "Great Britain",
+    date: "16 December 2024",
+    className: "absolute left-[25%] rotate-[-7deg]",
+  },
+  {
+    title: "Istimewa",
+    desc: "Our stay here was excellent! The staff were so friendly and accommodating and the actual place was clean and designed well. We could not have asked for better hosts. We wished we could stay longer!",
+    author: "Rivera",
+    nation: "Great Britain",
+    date: "29 November 2024",
+    className: "absolute left-[40%] rotate-[8deg]",
+  },
+  {
+    title: "Hidden gem",
+    desc: "The villa is new and well maintained. Location is very calm compared to downtown ubud. Host is very accommodating and helpful with anything I needed to make my stay comfortable. They have small store in front and scooter rental available. There is laundry across the street and a cafe in walking distance. Easy to call Grab here too with the choose location on map option.",
+    author: "Tiara",
+    nation: "USA",
+    date: "27 November 2024",
+    className: "absolute left-[55%] rotate-[10deg]",
+  },
+  {
+    title: "Absolutely exceptional!!!",
+    desc: "I'm so glad we chose to stay here, the place is absolutely perfect in every way! The host, Wayan, was super friendly and helpful - he greeted us with refreshments on arrival, let us check in early and even arranged scooter rental for us onsite. The villa was immaculate, brand-new, modern and clean with a resort-like feel. The pool area is very private (brilliant for tan-line-free sunbathing) and a great place to relax while overlooking the jungle. It was also perfect having the little kitchen area for cooking or storing our Grab food deliveries. The location couldn't have been better as it was so quiet and peaceful yet close enough to Ubud center and attractions. We will definitely be staying here again next time we're in Bali.",
+    author: "Janna",
+    nation: "New Zealand",
+    date: "25 November 2024",
+    className: "absolute right-[35%] rotate-[2deg]",
+  },
+  {
+    title: "Istimewa",
+    desc: "Nice owner and we have a pleasant stay !! thank you for the cake ☺️",
+    author: "Tomy",
+    nation: "Indonesia",
+    date: "14 November 2024",
+    className: "absolute left-[45%] rotate-[-7deg]",
+  },
+  {
+    title: "Incantevole villa a pochi minuti da Ubud.",
+    desc: "Villa incantevole di nuova realizzazione, curata e progettata nei minimi dettagli, con cucina e doccia all'aperto. Un posto perfetto per rilassarsi e prendersi cura di sé. Noleggio motorini in loco. Wayan e la sua famiglia sono splendidi, sempre sorridenti e disponibili ad accogliere ogni richiesta del cliente. Non vorremmo andarcene più!",
+    author: "Deniel",
+    nation: "Italy",
+    date: "17 October 2024",
+    className: "absolute left-[30%] rotate-[4deg]",
+  },
+];
+
+export default reviews;
