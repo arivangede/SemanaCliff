@@ -4,7 +4,7 @@ export default function LocationSection() {
   return (
     <div
       id="location"
-      className="flex flex-wrap items-center justify-center w-full gap-4 px-16 py-8 md:justify-between"
+      className="flex flex-col items-center justify-center w-full gap-4 px-16 py-8 md:justify-between"
     >
       <div className="flex flex-col items-center justify-center text-white md:items-start">
         <h1 className="text-2xl md:text-6xl">Our Location</h1>
