@@ -47,7 +47,7 @@ export default function AboutSection() {
           home away from home.
         </span>
       </div>
-      <div className="relative w-full py-8 overflow-hidden md:py-16">
+      <div className="relative w-full py-16 overflow-hidden">
         <Carousel slides={pics} />
       </div>
     </div>
