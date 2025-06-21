@@ -24,9 +24,9 @@ export default function MenuButton() {
 const MenuDrawer = () => {
   return (
     <motion.div
-      initial={{ opacity: 0, translateY: -10 }}
-      animate={{ opacity: 1, translateY: 0 }}
-      exit={{ opacity: 0, translateY: -10 }}
+      initial={{ opacity: 0, y: -10 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: -10 }}
       className="absolute left-0 flex flex-col w-full gap-4 p-4 px-10 top-full bg-emerald-900/50 sm:flex-row sm:justify-between sm:px-16"
     >
       <a href="#" className="transition duration-300 hover:text-orange-400">
