@@ -62,7 +62,9 @@ export default function FacilitiesSection() {
     >
       <div className="flex flex-col items-center justify-center w-full">
         <h1 className="text-4xl md:text-6xl">Our Facilities</h1>
-        <span>Experience comfort and convenience with our facilities</span>
+        <span className="text-center md:text-left">
+          Experience comfort and convenience with our facilities
+        </span>
       </div>
       <div className="flex flex-row flex-wrap items-center justify-center gap-4 max-w-600">
         {facilities.map((item, idx) => (
