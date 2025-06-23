@@ -29,14 +29,17 @@ const MenuDrawer = () => {
       exit={{ opacity: 0, y: -10 }}
       className="absolute left-0 flex flex-col w-full gap-4 p-4 px-10 top-full bg-emerald-900/50 sm:flex-row sm:justify-between sm:px-16"
     >
-      <a href="#" className="transition duration-300 hover:text-orange-400">
-        Facilities
-      </a>
       <a
         href="#about"
         className="transition duration-300 hover:text-orange-400"
       >
         About Us
+      </a>
+      <a
+        href="#facilities"
+        className="transition duration-300 hover:text-orange-400"
+      >
+        Facilities
       </a>
       <a
         href="#reviews"
